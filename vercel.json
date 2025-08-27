@@ -1,16 +1,1 @@
-{
-  "version": 2,
-  "functions": {
-    "index.js": {
-      "runtime": "nodejs18.x",
-      "memory": 256,
-      "maxDuration": 10
-    }
-  },
-  "routes": [
-    { "src": "/webhook", "dest": "/index.js" },
-    { "src": "/ping", "dest": "/index.js" },
-    { "src": "/whoami", "dest": "/index.js" },
-    { "src": "/version", "dest": "/index.js" }
-  ]
-}
+remove vercel.json
